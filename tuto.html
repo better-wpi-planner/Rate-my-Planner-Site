@@ -9,18 +9,33 @@
 </head>
 
 <body style="background-color: rgb(172, 43, 55);">
-  <div id="wrapper" style="background-image: url('bkg.png');background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;">
-    <header id="header" class="cf">
-  <div class="header_title">
     
-    <a href="./index.html" style="color: #954C4C;"><div class="header_title_main">Rate My Planner</div></a>
-  </div>
-
-</header>
-
-<div><br/><br/><br/></div>
+    <div style="background-image: url('bkg.png'); background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;">
+        <div class="header" style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;">
+            <a href="./index.html" style="color: rgb(172, 43, 55);">
+                <div class="header" style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                padding: 2rem;
+                width: fit-content;
+                transition: 0.3s;">
+                    <img src="logo.png" style="scale: 70%;"></img>
+                    <div class="header_title_main" style="text-align: center; font-size: 50px;
+                    font-weight: bold; font-family: serif;">Rate My Planner</div>
+                </div>
+                <style>
+                    .header:hover{ color: #954C4C; transition-duration: 0.3s;};
+                </style>
+            </a>
+        </div>
 
 <div class="pagewidth kb_wrapper" style="background-color: #954C4C; border-bottom: #954C4C; border-radius: 25px;">
     <div class="full_width kb_flex">
@@ -102,3 +117,12 @@
   </body>
 
   </html>
+
+  <style>
+    p,
+    h3,
+    h2,
+    h1 {
+        font-family: sans-serif;
+    }
+  </style>
